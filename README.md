@@ -51,11 +51,11 @@ A curated collection of idiomatic design & application patterns for Go language.
 
 | Pattern | Description | Status |
 |:-------:|:----------- |:------:|
-| [Condition Variable](/synchronization/condition_variable.md) | Provides a mechanism for threads to temporarily give up access in order to wait for some condition | ✘ |
-| [Lock/Mutex](/synchronization/mutex.md) | Enforces mutual exclusion limit on a resource to gain exclusive access | ✘ |
-| [Monitor](/synchronization/monitor.md) | Combination of mutex and condition variable patterns | ✘ |
-| [Read-Write Lock](/synchronization/read_write_lock.md) | Allows parallel read access, but only exclusive access on write operations to a resource | ✘ |
-| [Semaphore](/synchronization/semaphore.md) | Allows controlling access to a common resource | ✔ |
+| [Condition Variable 条件变量模式](/synchronization/condition_variable.md) | Provides a mechanism for threads to temporarily give up access in order to wait for some condition | ✘ |
+| [Lock/Mutex 互斥锁模式](/synchronization/mutex.md) | Enforces mutual exclusion limit on a resource to gain exclusive access | ✘ |
+| [Monitor 监听者模式](/synchronization/monitor.md) | Combination of mutex and condition variable patterns | ✘ |
+| [Read-Write Lock 读写锁模式](/synchronization/read_write_lock.md) | Allows parallel read access, but only exclusive access on write operations to a resource | ✘ |
+| [Semaphore 信号模式](/synchronization/semaphore.md) | Allows controlling access to a common resource | ✔ |
 
 ## Concurrency Patterns
 
@@ -64,18 +64,18 @@ A curated collection of idiomatic design & application patterns for Go language.
 | [N-Barrier](/concurrency/barrier.md) | Prevents a process from proceeding until all N processes reach to the barrier | ✘ |
 | [Bounded Parallelism](/concurrency/bounded_parallelism.md) | Completes large number of independent tasks with resource limits | ✔ |
 | [Broadcast](/concurrency/broadcast.md) | Transfers a message to all recipients simultaneously | ✘ |
-| [Coroutines](/concurrency/coroutine.md) | Subroutines that allow suspending and resuming execution at certain locations | ✘ |
-| [Generators](/concurrency/generator.md) | Yields a sequence of values one at a time | ✔ |
-| [Reactor](/concurrency/reactor.md) | Demultiplexes service requests delivered concurrently to a service handler and dispatches them syncronously to the associated request handlers | ✘ |
-| [Parallelism](/concurrency/parallelism.md) | Completes large number of independent tasks | ✔ |
-| [Producer Consumer](/concurrency/producer_consumer.md) | Separates tasks from task executions | ✘ |
+| [Coroutines 协程模式](/concurrency/coroutine.md) | Subroutines that allow suspending and resuming execution at certain locations | ✘ |
+| [Generators 生成器模式](/concurrency/generator.md) | Yields a sequence of values one at a time | ✔ |
+| [Reactor 反应器模式](/concurrency/reactor.md) | Demultiplexes service requests delivered concurrently to a service handler and dispatches them syncronously to the associated request handlers | ✘ |
+| [Parallelism 并行模式](/concurrency/parallelism.md) | Completes large number of independent tasks | ✔ |
+| [Producer Consumer 生产者消费者模式](/concurrency/producer_consumer.md) | Separates tasks from task executions | ✘ |
 
 ## Messaging Patterns
 
 | Pattern | Description | Status |
 |:-------:|:----------- |:------:|
-| [Fan-In](/messaging/fan_in.md) | Funnels tasks to a work sink (e.g. server) | ✔ |
-| [Fan-Out](/messaging/fan_out.md) | Distributes tasks among workers (e.g. producer) | ✔ |
+| [Fan-In 流水线模式](/messaging/fan_in.md) | Funnels tasks to a work sink (e.g. server) | ✔ |
+| [Fan-Out 流水线模式](/messaging/fan_out.md) | Distributes tasks among workers (e.g. producer) | ✔ |
 | [Futures & Promises](/messaging/futures_promises.md) | Acts as a place-holder of a result that is initially unknown for synchronization purposes | ✘ |
 | [Publish/Subscribe](/messaging/publish_subscribe.md) | Passes information to a collection of recipients who subscribed to a topic | ✔ |
 | [Push & Pull](/messaging/push_pull.md) | Distributes messages to multiple workers, arranged in a pipeline | ✘ |
