@@ -15,37 +15,37 @@ A curated collection of idiomatic design & application patterns for Go language.
 
 | Pattern | Description | Status |
 |:-------:|:----------- |:------:|
-| [Abstract Factory](/creational/abstract_factory.md) | Provides an interface for creating families of releated objects | ✘ |
-| [Builder](/creational/builder.md) | Builds a complex object using simple objects | ✔ |
-| [Factory Method](/creational/factory.md) | Defers instantiation of an object to a specialized function for creating instances | ✔ |
-| [Object Pool](/creational/object-pool.md) | Instantiates and maintains a group of objects instances of the same type | ✔ |
-| [Singleton](/creational/singleton.md) | Restricts instantiation of a type to one object | ✔ |
+| [Abstract Factory抽象工厂](/creational/abstract_factory.md) | Provides an interface for creating families of releated objects | ✘ |
+| [Builder 生成器](/creational/builder.md) | Builds a complex object using simple objects | ✔ |
+| [Factory Method 工厂模式](/creational/factory.md) | Defers instantiation of an object to a specialized function for creating instances | ✔ |
+| [Object Pool 对象池模式](/creational/object-pool.md) | Instantiates and maintains a group of objects instances of the same type | ✔ |
+| [Singleton 单例模式](/creational/singleton.md) | Restricts instantiation of a type to one object | ✔ |
 
 ## Structural Patterns
 
 | Pattern | Description | Status |
 |:-------:|:----------- |:------:|
-| [Bridge](/structural/bridge.md) | Decouples an interface from its implementation so that the two can vary independently | ✘ |
-| [Composite](/structural/composite.md) | Encapsulates and provides access to a number of different objects | ✘ |
-| [Decorator](/structural/decorator.md) | Adds behavior to an object, statically or dynamically | ✔ |
-| [Facade](/structural/facade.md) | Uses one type as an API to a number of others | ✘ |
-| [Flyweight](/structural/flyweight.md) | Reuses existing instances of objects with similar/identical state to minimize resource usage | ✘ |
-| [Proxy](/structural/proxy.md) | Provides a surrogate for an object to control it's actions | ✔ |
+| [Bridge桥接模式](/structural/bridge.md) | Decouples an interface from its implementation so that the two can vary independently | ✘ |
+| [Composite 组合模式](/structural/composite.md) | Encapsulates and provides access to a number of different objects | ✘ |
+| [Decorator 装饰器模式](/structural/decorator.md) | Adds behavior to an object, statically or dynamically | ✔ |
+| [Facade 门面模式](/structural/facade.md) | Uses one type as an API to a number of others | ✘ |
+| [Flyweight 享元模式](/structural/flyweight.md) | Reuses existing instances of objects with similar/identical state to minimize resource usage | ✘ |
+| [Proxy 代理模式](/structural/proxy.md) | Provides a surrogate for an object to control it's actions | ✔ |
 
 ## Behavioral Patterns
 
 | Pattern | Description | Status |
 |:-------:|:----------- |:------:|
-| [Chain of Responsibility](/behavioral/chain_of_responsibility.md) | Avoids coupling a sender to receiver by giving more than object a chance to handle the request | ✘ |
-| [Command](/behavioral/command.md) | Bundles a command and arguments to call later | ✘ |
-| [Mediator](/behavioral/mediator.md) | Connects objects and acts as a proxy | ✘ |
-| [Memento](/behavioral/memento.md) | Generate an opaque token that can be used to go back to a previous state | ✘ |
-| [Observer](/behavioral/observer.md) | Provide a callback for notification of events/changes to data | ✔ |
-| [Registry](/behavioral/registry.md) | Keep track of all subclasses of a given class | ✘ |
-| [State](/behavioral/state.md) | Encapsulates varying behavior for the same object based on its internal state | ✘ |
-| [Strategy](/behavioral/strategy.md) | Enables an algorithm's behavior to be selected at runtime | ✔ |
-| [Template](/behavioral/template.md) | Defines a skeleton class which defers some methods to subclasses | ✘ |
-| [Visitor](/behavioral/visitor.md) | Separates an algorithm from an object on which it operates | ✘ |
+| [Chain of Responsibility 责任链模式](/behavioral/chain_of_responsibility.md) | Avoids coupling a sender to receiver by giving more than object a chance to handle the request | ✘ |
+| [Command 命令模式](/behavioral/command.md) | Bundles a command and arguments to call later | ✘ |
+| [Mediator 终结者模式](/behavioral/mediator.md) | Connects objects and acts as a proxy | ✘ |
+| [Memento 备忘录模式](/behavioral/memento.md) | Generate an opaque token that can be used to go back to a previous state | ✘ |
+| [Observer 观察者模式](/behavioral/observer.md) | Provide a callback for notification of events/changes to data | ✔ |
+| [Registry 注册模式](/behavioral/registry.md) | Keep track of all subclasses of a given class | ✘ |
+| [State 状态模式](/behavioral/state.md) | Encapsulates varying behavior for the same object based on its internal state | ✘ |
+| [Strategy 策略模式](/behavioral/strategy.md) | Enables an algorithm's behavior to be selected at runtime | ✔ |
+| [Template 模版模式](/behavioral/template.md) | Defines a skeleton class which defers some methods to subclasses | ✘ |
+| [Visitor 访问者模式 ](/behavioral/visitor.md) | Separates an algorithm from an object on which it operates | ✘ |
 
 ## Synchronization Patterns
 
